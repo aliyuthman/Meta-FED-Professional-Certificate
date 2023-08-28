@@ -1,15 +1,21 @@
 import "./App.css";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Main from "./components/Main";
-import Nav from "./components/Nav";
+import Hero from "./components/Hero";
+import Highlights from "./components/Highlights";
+import Testimonial from "./components/Testimonial";
+import About from "./components/About";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Nav />
-      <Main />
+      <main>
+        <Hero />
+        <Highlights />
+        <Testimonial />
+        <About />
+      </main>
       <Footer />
     </>
   );

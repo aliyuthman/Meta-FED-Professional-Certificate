@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "../assets/logo.svg";
-import Nav from "./Nav";
+// import logo from "../assets/logo.svg";
+// import Nav from "./Nav";
+import "./Footer.css";
 
 const Footer = () => {
   return (
     <footer>
-      <>
+      {/* <>
         <img src={logo} alt="" />
       </>
       <Nav />
@@ -22,7 +23,9 @@ const Footer = () => {
             <a href="">Twitter</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+
+      footer
     </footer>
   );
 };
