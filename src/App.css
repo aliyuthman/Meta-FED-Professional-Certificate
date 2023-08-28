@@ -1,3 +1,18 @@
+:root {
+
+  --pri-brand-color: #495E57;
+  --pri-accent-color: #F4CE14;
+  --highlight-color-light: #EDEFEE;
+  --highlight-color-dark: #333333;
+  --sec-orange-color: #EE9972;
+  --sec-milk-color: #FBDABB;
+  --display-title: 5.3331rem;
+  --sub-title: 3.3331rem;
+  --lead-text-card-title: 1.5rem;
+  --section-title: 1.6669rem;
+  --categorie-paragraph-highlight: 1.3331rem;
+
+}
 
   main {
 
@@ -21,11 +36,15 @@
   footer {
 
     height: 384px;
+    background-color: #4db6ac;
+    width: 100vw;
    
   }
   
   header {
     height: 128px;
+    width: 100vw;
+    background-color: #e57373;
   }
 
   footer, header{
@@ -50,4 +69,54 @@
   }
 
 
+  /* Sections */
+
+  .hero {
+
+    background-color: bisque;
+}
+
+.highlight {
+  grid-area: highlight;
+  background-color: chartreuse;
+}
+
+.testimonial{
+  grid-area: testimonial;
+  background-color:  rgb(60, 117, 250);
+}
+
+  .about {
+    grid-area: about;
+    background-color: burlywood;
+  }
   
+
+  h1{
+
+    font-size: var(--display-title);
+  }
+
+  h2 {
+    font-size: var(--sub-title);
+  }
+
+
+  p {
+    font-size: var(--categorie-paragraph-highlight);
+  }
+
+  h2 {
+
+    font-size: var(--section-title);
+  }
+
+  button{
+
+    font-size: var(--lead-text-card-title);
+  }
+
+  h3{
+
+    font-size: var(--lead-text-card-title);
+  }
