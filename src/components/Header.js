@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,34 +13,43 @@ const Header = () => {
           <span>Little Lemon</span>
         </div>
         {/* Right Nav */}
+
         <ul className="left-nav">
           <li>
-            <a href="">Home</a>
+            {/* <a href="">Home</a> */}
+            <Link to="/home">Home</Link>
           </li>
           <li>
-            <a href="">About</a>
+            {/* <a href="">About</a> */}
+            <Link to="about">About</Link>
           </li>
           <li>
-            <a href="">Menu</a>
+            {/* <a href="">Menu</a> */}
+            <Link to="menu">Menu</Link>
           </li>
 
           <li>
-            <a href="">Reservation</a>
+            {/* <a href="">Reservation</a> */}
+            <Link to="bookingPage">Reservation</Link>
           </li>
         </ul>
 
         {/* Left Nav */}
         <ul className="right-nav">
           <li>
-            <a href="" role="button">
+            {/* <a href="" role="button">
               Order online
-            </a>
+            </a> */}
+
+            <Link to="order-online">Order Online</Link>
           </li>
 
           <li>
-            <a href="" role="button">
+            {/* <a href="" role="button">
               Login
-            </a>
+            </a> */}
+
+            <Link to="login">Login</Link>
           </li>
         </ul>
       </nav>

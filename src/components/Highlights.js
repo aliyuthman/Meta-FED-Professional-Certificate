@@ -34,7 +34,7 @@ const cardDetails = [
 
 const Highlights = () => {
   return (
-    <section className="highlight">
+    <section id="highlight" className="highlight">
       <article className="card-container">
         <h1>This weeks specials!</h1>
         <button>Online Menu</button>
